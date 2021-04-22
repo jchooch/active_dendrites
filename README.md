@@ -13,6 +13,7 @@ This model was described/inspired by:
 - Plot currents over time.
 - Plot fI curves for different applied currents.
 - Calculate CV of ISI.
+    - Learn more about CV! Why is it useful/informative?
 - Plot ISIs over time.
 - See figures to plot in slides: 
     https://docs.google.com/presentation/d/1P3cYdprwlWrXsO4hjGdz60px-bmWu7g9qO2HRPGbbUo/edit#slide=id.gd35cab493c_0_1

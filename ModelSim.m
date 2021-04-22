@@ -110,7 +110,7 @@ for i = 1:length(tvec)
         ICa(i) = gCa*m(i)*h(i)*(Eca -vd(i));
         m(i+1) = m(i) + (dt/taum)*(-m(i) + minf(vd(i)));
         h(i+1) = h(i) + (dt/tauh)*(-h(i) + hinf(vd(i)));
-        vs(i+1) = vs(i) + (dt/CS)*((Vrs - vs(i))./RS + (vd(i) - vs(i))./RT + Iahp(i) + Iinjs(i));
+        vs(i+1) = vs(i) + (dt/CS)*((Vrs - vs(i))./RS + (vd(i) - vs(i))./RT +  Iahp(i) + Iinjs(i));
         vd(i+1) = vd(i) + (dt/CD)*((Vrd - vd(i))./RD + (vs(i) - vd(i))./RT + ICa(i) + Iinjd(i));
     elseif vs(i) == 10
         vs(i+1) = reset;
