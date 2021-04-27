@@ -15,12 +15,12 @@ theta = -47; %in mV (soma threshold)
 reset = -52; % in mV (soma reset)
 
 % potassium current
-gAHP = 4E-6 ; % in mS
+gAHP = 4E-3 ; % in mS
 EK = -90 ; % in mV
 tauK = 80 ;% in ms
 
 %calcium current
-gCa = 70E-6 ;% in mS
+gCa = 70E-3 ;% in mS
 taum = 15 ;% in ms
 tauh = 80 ;% in ms
 
